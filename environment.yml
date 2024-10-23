@@ -1,0 +1,20 @@
+name: Twar
+channels: 
+  - conda-forge
+  - pytorch
+  - nvidia 
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.4
+  - transformers
+  - numpy 
+  - pandas
+  - scikit-learn
+  - kagglehub
+  - tqdm 
+  - flask  
+  - tensorboard
+  
