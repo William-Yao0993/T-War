@@ -24,6 +24,8 @@ This repository contains the code for fine-tuning a BERT model on a sentiment an
     conda env create -f environment.yml
     conda activate T-WAR
     ```
+3. Download the models from this link (Github cannot hold since the models are larger than 100mb) `https://anu365-my.sharepoint.com/:f:/r/personal/u6771897_anu_edu_au/Documents/Twar?csf=1&web=1&e=epexGW` and put `models` folder under `T-War` repo.
+
 ## 2. Usage
 
 We use the Flask app to serve it for inference:
