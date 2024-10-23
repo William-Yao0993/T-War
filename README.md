@@ -76,18 +76,18 @@ We use the Flask app to serve it for inference:
     ```
 
 ### Training Loss
-![Training Loss](metrics\train_loss.png)
+![Training Loss](metrics/train_loss.png)
 
 - **Training Loss**: The training loss continuously decreased across all epochs, which shows that the model was successfully learning from the training data.
 - By the final epoch, the training loss was around **0.0011**, indicating a very strong fit to the training data.
 
 ### Validation Loss
-![Validation Loss](metrics\val_loss.png)
+![Validation Loss](metrics/val_loss.png)
 
 - **Validation Loss**: The validation loss decreased in the initial epochs, hitting a low point around epoch 10. However, the graph shows an increase after epoch 20, signaling **overfitting**—the model started performing better on training data but worse on unseen validation data.
 
 ### Validation Accuracy
-![Validation Accuracy](metrics\val_accur.png)
+![Validation Accuracy](metrics/val_accur.png)
 
 - **Best Validation Accuracy**: The best validation accuracy achieved was around **96%** at approximately epoch 18.
 - The graph shows that after epoch 15, validation accuracy plateaued and even fluctuated slightly, indicating that the model was reaching its peak performance.
